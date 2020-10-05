@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+        <title>
+            Blackjack
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link href="http://code.jquery.com/ui/1.9.2/themes/ui-lightness/jquery-ui.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        
+    </head>
+
+    <body>
+
+        <h1>
+            Lets Play Blackjack!
+        </h1>
+        <p></p>If you don't know how to play blackjack, click <a href="https://en.wikipedia.org/wiki/Blackjack?__s=zk88f98zh1rb0kgurcvv"target="_blank">here</a></p>
+        
+
+        <div class ="table">
+            
+            <p style=color:red id="dealer score"style=color:red></p>
+            <h2 class="top">Dealer's Cards</h2>
+
+            <img id='dealercard1' src= showdealercard1  class="card"> 
+            <img id='dealercard2' src= showdealercard2  class="card">
+            <img id='dealercard3' src= showdealercard3  class="card">
+            <img id='dealercard4' src= showdealercard4  class="card">
+            <img id='dealercard5' src= showdealercard5  class="card">
+            <img id='dealercard6' src= showdealercard6  class="card">
+            <p></p>
+            <img id='playercard1' src= showplayercard1 class="card"> 
+            <img id='playercard2' src= showplayercard2 class="card">
+            <img id='playercard3' src= showplayercard3 class="card">
+            <img id='playercard4' src= showplayercard4 class="card">
+            <img id='playercard5' src= showplayercard5 class="card">
+            <img id='playercard6' src= showplayercard6 class="card">
+
+
+            <h2 class="bottom" id="playerTitle"></h2>
+
+            <p id="scoreTitle"style=color:blue></p>
+
+            <div class="buttons">
+
+                <input type="button" id="btnDeal" class="btn" value="Deal" onclick="start()"style=background-color:green>
+                <input type="button" id="btnReset" class="btn" value="Reset" onclick="reset()"style=background-color:red>
+                <input type="button" id="btnhit" class="btn" value="Hit me" onclick="hit()">
+                <input type="button" id="btnstay" class="btn" value="Stay" onclick="stay()">
+    
+            </div>
+        
+        </div>
+        <p></p>
+        <form onsubmit="greet(); return false;" id="playerName">
+            What is your name? <input type="text" id=name>
+            <input type="submit" value="Submit">
+        </form>
+
+        <script src="java.js"></script>
+
+        <div id="test"title="Game Over">
+            <p id="test1"></p>
+        </div>
+
+        <div id="welcome"title="Welcome!">
+            <p id="greetings"></p>
+        </div>
+
+    </body>
+
+</html>

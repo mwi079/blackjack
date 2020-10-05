@@ -1,0 +1,75 @@
+body
+{
+    background-color:lightblue;
+    text-align:center;
+    font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif
+}
+.table
+{
+    width: 500px;
+    height:100px;
+    padding: 10px;  
+    border: 5px solid black;
+    border-radius: 25px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(18, 221, 18, 0.3);
+}
+.buttons
+{
+    text-align: center; 
+}
+.btn
+{
+    margin:10px;
+    background-color:rgb(228, 121, 196);
+    font-size: 24px;
+    border-radius: 5px;
+    font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif
+}
+.cards
+{
+    display: flex;
+}
+.card
+{
+    height:120px;
+    width:80px;
+    border-radius: 5px
+}
+.top
+{
+    color:red;
+    position:relative;
+    top:0px; 
+    margin:5px;
+}
+.bottom
+{
+    color:blue;
+    position:relative;
+    bottom:0px; 
+    margin:5px;
+}
+h1
+{
+    color:black ;
+    font-size: 200%; 
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+    text-decoration: underline
+}
+h2
+{ 
+    font-size: 150%; 
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif; 
+    text-align:center;  
+    
+}
+input[type=submit]
+{
+    border-radius: 4px;
+    background-color:#f6a828;
+    font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+}
+
